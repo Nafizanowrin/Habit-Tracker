@@ -1,0 +1,41 @@
+
+name: habit_tracker
+description: "A Flutter habit tracking application with Firebase integration."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # Firebase packages
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  
+  # State management
+  flutter_riverpod: ^2.6.1
+  hooks_riverpod: ^2.6.1
+  
+  # Local storage and utilities
+  shared_preferences: ^2.3.3
+  http: ^1.2.2
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  
+  # Charts
+  fl_chart: ^0.69.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
