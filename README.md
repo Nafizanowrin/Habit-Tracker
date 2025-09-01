@@ -89,18 +89,6 @@ dart pub global run flutterfire_cli:flutterfire configure --project=YOUR_PROJECT
 ```bash
 # Web
 flutter run -d chrome
-
-# Android
-flutter run -d android
-
-# iOS
-flutter run -d ios
-
-# Windows
-flutter run -d windows
-
-# macOS
-flutter run -d macos
 ```
 
 ## 📸 Screenshots
@@ -284,9 +272,8 @@ lib/
 ### Environment Variables
 Create a `.env` file in the root directory:
 ```env
-FIREBASE_PROJECT_ID=habit-tracker-bc361
-FIREBASE_API_KEY=
-AIzaSyDFE82jBNAykT7XSfI6PcscwME8TIuyo3s
+FIREBASE_PROJECT_ID= habit-tracker-bc361
+FIREBASE_API_KEY= AIzaSyDFE82jBNAykT7XSfI6PcscwME8TIuyo3s
 ```
 
 ### Firebase Configuration
