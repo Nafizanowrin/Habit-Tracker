@@ -95,7 +95,7 @@ flutter run -d chrome
 
 ### 1. Splash & Register Page  
 <p float="left">
-  <img src="Habit-Tracker/Splash.jpg" alt="Splash Screen" width="300"/>
+  <img src="Habit-Tracker/Splash.jpg" alt="Splash" width="300"/>
   <img src="Habit-Tracker/Register page.jpg" alt="Register Page" width="300"/>
 </p>
 
