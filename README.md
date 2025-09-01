@@ -6,18 +6,34 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Android%20%7C%20iOS%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](https://flutter.dev/)
 
-A modern, cross-platform Flutter application designed to help users build and maintain positive habits through intuitive tracking, progress visualization, and motivational features. Built with Firebase backend for seamless real-time data synchronization across all devices.
+A modern, cross-platform Flutter application to help users **build and maintain habits** with real-time sync powered by Firebase.
+
+---
 
 ## ✨ Features
 
-### 🎯 Core Functionality
-- **🔐 Secure Authentication**: Email/password registration and login with Firebase Auth
-- **📝 Habit Management**: Create, edit, delete, and track habits with detailed analytics
-- **📊 Progress Tracking**: Visual progress indicators, streak counting, and completion history
-- **📂 Category System**: Organize habits by categories (Health, Study, Fitness, Productivity, etc.)
-- **💬 Inspirational Quotes**: Daily motivational quotes with favorites system
-- **👤 User Profiles**: Complete profile management with customizable fields
-- **⚙️ Settings**: App preferences, theme customization, and notification settings
+- 🔐 **Authentication**: Secure login with Firebase Auth  
+- 📝 **Habit Management**: Create, edit, delete, and track habits  
+- 📊 **Progress Tracking**: Streaks, history, and visual analytics  
+- 📂 **Categories**: Organize habits (Health, Fitness, Study, etc.)  
+- 💬 **Motivational Quotes**: Daily quotes with favorites  
+- 👤 **User Profiles**: Customizable user profiles  
+- ⚙️ **Settings**: Themes, notifications, preferences  
+- 🌙 **Dark Mode** & responsive Material Design 3 UI  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | Flutter 3.16.9, Dart 3.2.6 |
+| Backend | Firebase (Auth, Firestore, Storage) |
+| State Management | Riverpod |
+| Charts | fl_chart |
+| Local Storage | SharedPreferences |
+
+---
 
 ### 🔥 Firebase Integration
 - **🔐 Authentication**: Firebase Auth with email/password and secure session management
@@ -25,26 +41,6 @@ A modern, cross-platform Flutter application designed to help users build and ma
 - **📁 Storage**: Firebase Storage for profile pictures and media
 - **🛡️ Security**: Comprehensive security rules and data protection
 
-### 📱 Cross-Platform Support
-- **🌐 Web**: Full-featured web application with responsive design
-- **🤖 Android**: Native Android app with Material Design
-- **🍎 iOS**: Native iOS app with Cupertino design elements
-- **🪟 Windows**: Desktop Windows application
-- **🖥️ macOS**: Desktop macOS application
-
-## 🛠️ Technology Stack
-
-| Category | Technology |
-|----------|------------|
-| **Frontend** | Flutter 3.16.9, Dart 3.2.6 |
-| **Backend** | Firebase (Auth, Firestore, Storage) |
-| **State Management** | Riverpod |
-| **Database** | Cloud Firestore |
-| **Authentication** | Firebase Auth |
-| **Storage** | Firebase Storage |
-| **Charts** | fl_chart |
-| **Local Storage** | SharedPreferences |
-| **UI Framework** | Material Design 3 |
 
 ## 📋 Prerequisites
 
@@ -107,10 +103,64 @@ flutter run -d windows
 flutter run -d macos
 ```
 
-## 📱 Screenshots
+## 📸 Screenshots
 
-> *Screenshots will be added here once the app is running*
+### 1. Splash & Register Page  
+<p float="left">
+  <img src="Habit-Tracker/Splash.jpg" alt="Splash Screen" width="300"/>
+  <img src="Habit-Tracker/Register page.jpg" alt="Register Page" width="300"/>
+</p>
 
+### 2. Login & Home Screen 
+<p float="left">
+  <img src="Habit-Tracker/Sign up page.jpg" alt="Login Page" width="300"/>
+  <img src="Habit-Tracker/home page.jpg" alt="Home Page" width="300"/>
+</p>
+
+### 3. Home Screen 
+<p float="left">
+  <img src="Habit-Tracker/home page1.jpg" alt="Home Screen 1" width="300"/>
+  <img src="Habit-Tracker/smart reminders.jpg" alt="Home Screen 2" width="300"/>
+</p>
+
+<p float="left">
+  <img src="Habit-Tracker/categories.jpg" alt="Home Screen 3" width="300"/>
+  <img src="Habit-Tracker/habit cart1.jpg" alt="Home Screen 4" width="300"/>
+</p>
+
+<p float="left">
+  <img src="Habit-Tracker/habit cart2.jpg" alt="Home Screen 5" width="300"/>
+  <img src="Habit-Tracker/habit cart3.jpg" alt="Home Screen 6" width="300"/>
+</p>
+
+### 4. Quotes & Favorites  
+<p float="left">
+  <img src="Habit-Tracker/Quotes.jpg" alt="Cart Screen" width="300"/>
+  <img src="Habit-Tracker/Quotes fav.jpg" alt="Favorites" width="300"/>
+</p>
+
+### 5. Profile & Edit Option
+<p float="left">
+  <img src="Habit-Tracker/Profile.jpg" alt="Profile" width="300"/>
+  <img src="Habit-Tracker/edit Profile.jpg" alt="Drawer" width="300"/>
+</p>
+
+### 6. Settings & Theme  
+<p float="left">
+  <img src="Habit-Tracker/light mode.jpg" alt="Setting" width="300"/>
+  <img src="Habit-Tracker/theme.jpg" alt="Light Mode" width="300"/>
+  <img src="Habit-Tracker/dark mode.jpg" alt="Dark Mode" width="300"/>
+</p>
+
+
+---
+## 📥 Download
+
+You can download and try the latest APK version of the Habit Tracker app here:
+
+[![Download APK](https://img.shields.io/badge/⬇️%20Download-APK-brightgreen?style=for-the-badge)](./f6d7a361-8ba9-48b1-873e-b3bf8a09dbe2.apk)
+
+---
 ## 📊 Database Structure
 
 ```json
@@ -211,14 +261,6 @@ lib/
         └── helpers.dart
 ```
 
-## 🔒 Security Features
-
-- **🔐 Authentication**: Firebase Auth with email/password
-- **🔑 Authorization**: User-based access control and data isolation
-- **✅ Data Validation**: Comprehensive input validation and sanitization
-- **🛡️ Security Rules**: Firestore and Storage security rules
-- **🚨 Error Handling**: Graceful error handling and user feedback
-
 ## 🎨 UI/UX Features
 
 - **🎨 Material Design 3**: Modern, beautiful interface with dynamic color
@@ -236,46 +278,15 @@ lib/
 - **🔍 Optimized Queries**: Efficient Firestore queries with pagination
 - **🔄 Lazy Loading**: Progressive data loading for better UX
 
-## 🧪 Testing
-
-```bash
-# Run unit tests
-flutter test
-
-# Run integration tests
-flutter test integration_test/
-
-# Run tests with coverage
-flutter test --coverage
-```
-
-## 📦 Building for Production
-
-```bash
-# Web
-flutter build web --release
-
-# Android
-flutter build apk --release
-flutter build appbundle --release
-
-# iOS
-flutter build ios --release
-
-# Windows
-flutter build windows --release
-
-# macOS
-flutter build macos --release
-```
-
+#
 ## 🔧 Configuration
 
 ### Environment Variables
 Create a `.env` file in the root directory:
 ```env
-FIREBASE_PROJECT_ID=your-project-id
-FIREBASE_API_KEY=your-api-key
+FIREBASE_PROJECT_ID=habit-tracker-bc361
+FIREBASE_API_KEY=
+AIzaSyDFE82jBNAykT7XSfI6PcscwME8TIuyo3s
 ```
 
 ### Firebase Configuration
@@ -307,73 +318,4 @@ We welcome contributions! Please follow these steps:
 4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
 5. 🔄 Open a Pull Request
 
-### Development Guidelines
-- Follow Flutter best practices and conventions
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
 
-## 📞 Support
-
-For support and questions:
-- 📖 Check the [Firebase Setup Guide](FIREBASE_SETUP.md)
-- 🔧 Review [Firebase documentation](https://firebase.google.com/docs)
-- 🐛 Open an [issue](https://github.com/Nafizanowrin/Habit-Tracker/issues) on GitHub
-- 💬 Join our [Discussions](https://github.com/Nafizanowrin/Habit-Tracker/discussions)
-
-## 🚀 Deployment
-
-### Web Deployment
-```bash
-flutter build web
-# Deploy to Firebase Hosting, Netlify, or Vercel
-```
-
-### Mobile Deployment
-```bash
-# Android
-flutter build appbundle
-# Upload to Google Play Console
-
-# iOS
-flutter build ios
-# Upload to App Store Connect
-```
-
-### Desktop Deployment
-```bash
-# Windows
-flutter build windows
-# Create installer with tools like Inno Setup
-
-# macOS
-flutter build macos
-# Create DMG with tools like create-dmg
-```
-
-## 📊 Project Statistics
-
-- **Lines of Code**: 10,000+
-- **Features**: 15+
-- **Platforms**: 5 (Web, Android, iOS, Windows, macOS)
-- **Dependencies**: 20+
-- **Test Coverage**: 80%+
-
-## 🙏 Acknowledgments
-
-- [Flutter Team](https://flutter.dev/) for the amazing framework
-- [Firebase Team](https://firebase.google.com/) for the backend services
-- [Riverpod](https://riverpod.dev/) for state management
-- [Material Design](https://material.io/) for design guidelines
-
----
-
-**⭐ Star this repository if you find it helpful!**
-
-**📝 Note**: This is a development setup. For production deployment, ensure you:
-- Set up proper security rules
-- Enable App Check
-- Configure domain verification
-- Set up monitoring and alerts
-- Test thoroughly on all platforms
-- Implement proper error tracking and analytics
