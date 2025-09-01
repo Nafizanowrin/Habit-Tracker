@@ -95,49 +95,49 @@ flutter run -d chrome
 
 ### 1. Splash & Register Page  
 <p float="left">
-  <img src="Habit-Tracker/Splash.jpg" alt="Splash" width="300"/>
-  <img src="Habit-Tracker/Register page.jpg" alt="Register Page" width="300"/>
+  <img src="Splash.jpg" alt="Splash" width="300"/>
+  <img src="Register page.jpg" alt="Register Page" width="300"/>
 </p>
 
 ### 2. Login & Home Screen 
 <p float="left">
-  <img src="Habit-Tracker/Sign up page.jpg" alt="Login Page" width="300"/>
-  <img src="Habit-Tracker/home page.jpg" alt="Home Page" width="300"/>
+  <img src="Sign up page.jpg" alt="Login Page" width="300"/>
+  <img src="home page.jpg" alt="Home Page" width="300"/>
 </p>
 
 ### 3. Home Screen 
 <p float="left">
-  <img src="Habit-Tracker/home page1.jpg" alt="Home Screen 1" width="300"/>
-  <img src="Habit-Tracker/smart reminders.jpg" alt="Home Screen 2" width="300"/>
+  <img src="home page1.jpg" alt="Home Screen 1" width="300"/>
+  <img src="smart reminders.jpg" alt="Home Screen 2" width="300"/>
 </p>
 
 <p float="left">
-  <img src="Habit-Tracker/categories.jpg" alt="Home Screen 3" width="300"/>
-  <img src="Habit-Tracker/habit cart1.jpg" alt="Home Screen 4" width="300"/>
+  <img src="categories.jpg" alt="Home Screen 3" width="300"/>
+  <img src="habit cart1.jpg" alt="Home Screen 4" width="300"/>
 </p>
 
 <p float="left">
-  <img src="Habit-Tracker/habit cart2.jpg" alt="Home Screen 5" width="300"/>
-  <img src="Habit-Tracker/habit cart3.jpg" alt="Home Screen 6" width="300"/>
+  <img src="habit cart2.jpg" alt="Home Screen 5" width="300"/>
+  <img src="habit cart3.jpg" alt="Home Screen 6" width="300"/>
 </p>
 
 ### 4. Quotes & Favorites  
 <p float="left">
-  <img src="Habit-Tracker/Quotes.jpg" alt="Cart Screen" width="300"/>
-  <img src="Habit-Tracker/Quotes fav.jpg" alt="Favorites" width="300"/>
+  <img src="Quotes.jpg" alt="Cart Screen" width="300"/>
+  <img src="Quotes fav.jpg" alt="Favorites" width="300"/>
 </p>
 
 ### 5. Profile & Edit Option
 <p float="left">
-  <img src="Habit-Tracker/Profile.jpg" alt="Profile" width="300"/>
-  <img src="Habit-Tracker/edit Profile.jpg" alt="Drawer" width="300"/>
+  <img src="Profile.jpg" alt="Profile" width="300"/>
+  <img src="edit Profile.jpg" alt="Drawer" width="300"/>
 </p>
 
 ### 6. Settings & Theme  
 <p float="left">
-  <img src="Habit-Tracker/light mode.jpg" alt="Setting" width="300"/>
-  <img src="Habit-Tracker/theme.jpg" alt="Light Mode" width="300"/>
-  <img src="Habit-Tracker/dark mode.jpg" alt="Dark Mode" width="300"/>
+  <img src="light mode.jpg" alt="Setting" width="300"/>
+  <img src="theme.jpg" alt="Light Mode" width="300"/>
+  <img src="dark mode.jpg" alt="Dark Mode" width="300"/>
 </p>
 
 
